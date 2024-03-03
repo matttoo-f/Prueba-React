@@ -12,7 +12,7 @@ const Buscador = ({onSearch}) => {
         onSearch(busqueda)
     }
     return (
-        <FormControl type="text" placeholder="Busca un ave" value={search} onChange={HandleSearch}/>
+        <input type="text" placeholder="Busca un ave" value={search} onChange={HandleSearch} className="input"/>
     )
 }
 export default Buscador

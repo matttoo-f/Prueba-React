@@ -1,6 +1,7 @@
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import MyApi from './components/MyApi';
-import Buscador from './components/Buscador'
 
 function App() {
 
@@ -9,7 +10,9 @@ function App() {
 
   return (
       <>
+       <Header/>
        <MyApi/>
+       <Footer/>
       </>
     );
 }
