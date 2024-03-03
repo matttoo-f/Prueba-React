@@ -4,7 +4,8 @@ const Header = () =>{
     return (
     <Container className=" header text-center text-white">
         <h3>Descubre el fascinante mundo de las aves chilenas.</h3>
-        <p>Trabajo de llamado Api y renderizacion dinámica...</p>
+        <p>Cientos de aves para reconocer y descubrir...</p>
+
     </Container>
     )
 
